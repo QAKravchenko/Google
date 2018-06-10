@@ -38,7 +38,7 @@ public class SearchTest extends BaseTest
 
         GoogleSearchResultsPage2 googleSearchResultsPage2 = googleSearchResultsPage.clickOnSecondPage();
         Assert.assertEquals(googleSearchResultsPage2.getCurrentTitle(),
-                "selenium - Поиск в Google",
+                "Selenium - Пошук Google",
                 "Title of the page is wrong!!!");
 
         List<String> googleSearchResultsList2 = googleSearchResultsPage2.getSearchResults();
