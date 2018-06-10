@@ -9,6 +9,9 @@ import java.util.List;
 
 import static java.lang.Thread.sleep;
 
+/**
+ * Test for performing search in Google
+ */
 public class SearchTest extends BaseTest
 {
     @Test
